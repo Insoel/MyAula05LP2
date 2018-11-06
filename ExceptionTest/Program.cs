@@ -28,6 +28,10 @@ namespace ExceptionTest
             {
                 Console.WriteLine(e.Message);
             }
+            finally
+            {
+                Console.WriteLine("Mensagem descodificada, programa vai-se autodestruir em 10 segundos.");
+            }
 
 
         }
